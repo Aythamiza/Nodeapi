@@ -4,6 +4,7 @@
   "description": "",
   "main": "peliculas.js",
   "dependencies": {
+    "eslint": "^5.9.0",
     "express": "^4.16.4",
     "fs": "^0.0.1-security",
     "morgan": "^1.9.1",
