@@ -7,8 +7,6 @@ const moviesRouter  = require('./src/api/movies');
 app.use(express.json());
 app.use('/movies', moviesRouter);
 
-
-
 app.use(morgan('combined'));
 
 app.listen(3000);
